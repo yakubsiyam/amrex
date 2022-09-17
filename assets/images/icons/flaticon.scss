@@ -1,0 +1,77 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?d882391aee608c03d17790dcd874e525") format("truetype"),
+url("./flaticon.woff?d882391aee608c03d17790dcd874e525") format("woff"),
+url("./flaticon.woff2?d882391aee608c03d17790dcd874e525") format("woff2"),
+url("./flaticon.eot?d882391aee608c03d17790dcd874e525#iefix") format("embedded-opentype"),
+url("./flaticon.svg?d882391aee608c03d17790dcd874e525#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "calendar": "\f101",
+    "user": "\f102",
+    "invoices": "\f103",
+    "credit-card": "\f104",
+    "report": "\f105",
+    "activity": "\f106",
+    "reminder": "\f107",
+    "settings": "\f108",
+    "support": "\f109",
+    "layers": "\f10a",
+    "copy": "\f10b",
+    "solution": "\f10c",
+    "team": "\f10d",
+);
+
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-invoices:before {
+    content: map-get($flaticon-map, "invoices");
+}
+.flaticon-credit-card:before {
+    content: map-get($flaticon-map, "credit-card");
+}
+.flaticon-report:before {
+    content: map-get($flaticon-map, "report");
+}
+.flaticon-activity:before {
+    content: map-get($flaticon-map, "activity");
+}
+.flaticon-reminder:before {
+    content: map-get($flaticon-map, "reminder");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
+.flaticon-support:before {
+    content: map-get($flaticon-map, "support");
+}
+.flaticon-layers:before {
+    content: map-get($flaticon-map, "layers");
+}
+.flaticon-copy:before {
+    content: map-get($flaticon-map, "copy");
+}
+.flaticon-solution:before {
+    content: map-get($flaticon-map, "solution");
+}
+.flaticon-team:before {
+    content: map-get($flaticon-map, "team");
+}
