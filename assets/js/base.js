@@ -54,7 +54,7 @@
             <div class="row justify-content-between">
             <div class="col-md-4 footer-single">
                 <img src="assets/images/logo/logo.png" class="img-fluid" alt="therapy">
-                <p>We have designed and built the smartest application for your establishment
+                <p class="footer-description">We have designed and built the smartest application for your establishment
                     in the health industry with flexibility to meet any of its unique needs.</p>
                 <form action="#">
                     <label>STAY UPDATE WITH US</label>

@@ -336,12 +336,6 @@ header nav {
 .navbarBg{
     background: url(../images/background/navbarBg.png) no-repeat;
     background-size: 100% 100%;
-    /* background: linear-gradient(to left, #1B76B0, #48BA9F); */
-    /* box-sizing: content-box;
-    border-style: solid;
-    border-width: 10px;
-    border-image: linear-gradient(to left, #1B76B0, #48BA9F);
-    border-image-slice: 1; */
 }
 
 .inner-page nav {
@@ -786,7 +780,7 @@ footer {
 
 .footer-top {
     padding: 50px 0;
-    background-color: #F7F7F7;
+    background-color: #000;
 }
 
 .footer-single p {
@@ -796,13 +790,17 @@ footer {
 .footer-single label {
     font-size: 14px;
     font-weight: 600;
-    color: var(--blue);
+    color: #d3d3d3;
     margin-bottom: 8px;
 }
 
 .footer-single a {
-    color: var(--blue);
+    color: #d3d3d3;
     padding: 8px 0;
+}
+
+.footer-description{
+    color: #d3d3d3;
 }
 
 .footer-single a i {
@@ -812,6 +810,7 @@ footer {
 .footer-title {
     font-size: 20px;
     margin: 20px 0 30px;
+    color: #d3d3d3;
 }
 
 .footer-bottom {
@@ -1004,12 +1003,10 @@ Feature page
 }
 
 .features {
-    color: #000;
+    color: #fff;
     padding: 100px 0;
-    background: url(../images/background/serviceBg.png) no-repeat;
+    background: url(../images/background/featureBg.png) no-repeat;
     background-size: 100% 100%;
-    background-color: #d7f7f7;
-    /* background-color: #afc2b5; */
 }
 
 .features .subtitle {
